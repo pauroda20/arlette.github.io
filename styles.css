@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#body_1{
+    display: grid;
+    place-items: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #333;
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.countdown div{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+#days{
+    display: grid;
+    place-items: center;
+    border: solid 1px rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #b8b562;
+}
+
+#hours{
+    display: grid;
+    place-items: center;
+    border: solid 1px rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #b8b562;
+}
+
+#minutes{
+    display: grid;
+    place-items: center;
+    border: solid 1px rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #b8b562;
+}
+
+#seconds{
+    display: grid;
+    place-items: center;
+    border: solid 1px rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #b8b562;
+}
+
+span{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #3d936b;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#primer_h1{
+    color: white;
+    font-size: 60px;
+    border-radius: 30px;
+}
+
+/*CSS-TEXT DESPRES*/
+.final-sms{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: #333;
+}
+
+.primer_div{
+    width: 20%;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#primer_a{
+    text-align: center;
+    color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 250%
+}
+
+/*CSS-SEGONA_PÀGINA*/
+
+#body_2{
+    width: x;
+    background-color: #333;
+}
+
+.div_segona{
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    top: 25%;
+    align-items: center;
+    background-color: white;
+    height: 350px;
+    width: 350px;
+}
+
+#video{
+    height: 350px;
+    width: 350px;
+}
+
+.div_video{
+    position: absolute;
+    left: 30%;
+    border-radius:  25px;
+    height: 130px;
+    width: 500px;
+    background-color: white;
+}
+
+#p_video{
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
